@@ -1,0 +1,999 @@
+{
+  "summary": {
+    "run_at": "2026-09-23T19:13:20.809927+00:00",
+    "num_questions": 61,
+    "top_k": 6,
+    "hit_rate@6": 1.0,
+    "mrr": 0.975,
+    "avg_faithfulness_1to5": 5.0,
+    "avg_relevance_1to5": 4.97
+  },
+  "details": [
+    {
+      "question": "What percentage of the employee premium does NovaBridge cover for health insurance?",
+      "expected_source": "company_benefits.pdf",
+      "retrieved_sources": [
+        "company_benefits.pdf",
+        "company_benefits.pdf",
+        "company_overview.txt",
+        "company_benefits.pdf",
+        "company_benefits.pdf",
+        "company_internal_procedures.docx"
+      ],
+      "hit": 1,
+      "reciprocal_rank": 1.0,
+      "answer": "NovaBridge covers **80%** of employee health‑insurance premiums. (Source: company_benefits.pdf)",
+      "faithfulness_score": 5,
+      "relevance_score": 5
+    },
+    {
+      "question": "How much is the monthly wellness stipend?",
+      "expected_source": "company_benefits.pdf",
+      "retrieved_sources": [
+        "company_benefits.pdf",
+        "company_benefits.pdf"
+      ],
+      "hit": 1,
+      "reciprocal_rank": 1.0,
+      "answer": "The monthly wellness stipend is **$50 per month**. (Source: company_benefits.pdf)",
+      "faithfulness_score": 5,
+      "relevance_score": 5
+    },
+    {
+      "question": "What is the company's 401(k) match?",
+      "expected_source": "company_benefits.pdf",
+      "retrieved_sources": [
+        "company_benefits.pdf"
+      ],
+      "hit": 1,
+      "reciprocal_rank": 1.0,
+      "answer": "The company matches 50 % of employee contributions on the first 6 % of pay that employees contribute to the 401(k) plan. (Source: company_benefits.pdf)",
+      "faithfulness_score": 5,
+      "relevance_score": 5
+    },
+    {
+      "question": "How many free counseling sessions does the Employee Assistance Program offer per year?",
+      "expected_source": "company_benefits.pdf",
+      "retrieved_sources": [
+        "company_benefits.pdf",
+        "company_benefits.pdf"
+      ],
+      "hit": 1,
+      "reciprocal_rank": 1.0,
+      "answer": "The Employee Assistance Program provides up to 6 free confidential counseling sessions per year per employee or household member. (Source: company_benefits.pdf)",
+      "faithfulness_score": 5,
+      "relevance_score": 5
+    },
+    {
+      "question": "What is the annual professional development budget per employee?",
+      "expected_source": "company_benefits.pdf",
+      "retrieved_sources": [
+        "company_benefits.pdf",
+        "company_benefits.pdf"
+      ],
+      "hit": 1,
+      "reciprocal_rank": 1.0,
+      "answer": "The annual professional development budget is **$1,500 per employee**. (Source: company_benefits.pdf)",
+      "faithfulness_score": 5,
+      "relevance_score": 5
+    },
+    {
+      "question": "How many departments is NovaBridge Technologies organized into?",
+      "expected_source": "company_departments.md",
+      "retrieved_sources": [
+        "company_departments.md",
+        "company_overview.txt",
+        "company_internal_procedures.docx",
+        "company_overview.txt",
+        "company_overview.txt",
+        "company_benefits.pdf"
+      ],
+      "hit": 1,
+      "reciprocal_rank": 1.0,
+      "answer": "NovaBridge Technologies Inc. is organized into six departments. (Source: company_departments.md)",
+      "faithfulness_score": 5,
+      "relevance_score": 5
+    },
+    {
+      "question": "Which Engineering sub-team works closely with IT Security?",
+      "expected_source": "company_departments.md",
+      "retrieved_sources": [
+        "company_departments.md",
+        "company_departments.md",
+        "company_departments.md",
+        "company_departments.md"
+      ],
+      "hit": 1,
+      "reciprocal_rank": 1.0,
+      "answer": "The **Security Engineering** sub‑team works closely with the IT Security team. (Source: company_departments.md)",
+      "faithfulness_score": 5,
+      "relevance_score": 5
+    },
+    {
+      "question": "How often is the company-wide All-Hands meeting held?",
+      "expected_source": "company_departments.md",
+      "retrieved_sources": [
+        "company_departments.md",
+        "company_internal_procedures.docx",
+        "company_departments.md"
+      ],
+      "hit": 1,
+      "reciprocal_rank": 1.0,
+      "answer": "The company‑wide All‑Hands meeting is held **monthly**. (Source: company_departments.md; Source: company_internal_procedures.docx)",
+      "faithfulness_score": 5,
+      "relevance_score": 5
+    },
+    {
+      "question": "What functions fall under the G&A (General & Administrative) department?",
+      "expected_source": "company_departments.md",
+      "retrieved_sources": [
+        "company_departments.md",
+        "company_overview.txt"
+      ],
+      "hit": 1,
+      "reciprocal_rank": 1.0,
+      "answer": "The G&A (General & Administrative) department includes the following functions:\n\n- **People Operations (HR)** – hiring, benefits, employee relations, policies.  \n- **Finance & Accounting** – payroll, budgeting, vendor payments.  \n- **Legal** – contracts, compliance, data protection.  \n- **IT** – device provisioning, security tooling, internal systems.  \n\n(Source: company_departments.md)",
+      "faithfulness_score": 5,
+      "relevance_score": 5
+    },
+    {
+      "question": "In which US state is NovaBridge Technologies Inc. incorporated?",
+      "expected_source": "company_overview.txt",
+      "retrieved_sources": [
+        "company_overview.txt",
+        "company_overview.txt",
+        "company_departments.md",
+        "company_benefits.pdf",
+        "company_internal_procedures.docx",
+        "company_overview.txt"
+      ],
+      "hit": 1,
+      "reciprocal_rank": 1.0,
+      "answer": "NovaBridge Technologies Inc. is incorporated in the state of Delaware. (Source: company_overview.txt)",
+      "faithfulness_score": 5,
+      "relevance_score": 5
+    },
+    {
+      "question": "In what year was NovaBridge founded?",
+      "expected_source": "company_overview.txt",
+      "retrieved_sources": [
+        "company_overview.txt",
+        "company_departments.md",
+        "company_benefits.pdf",
+        "company_internal_procedures.docx",
+        "company_overview.txt",
+        "company_overview.txt"
+      ],
+      "hit": 1,
+      "reciprocal_rank": 1.0,
+      "answer": "NovaBridge Technologies Inc. was founded in 2018. (Source: company_overview.txt)",
+      "faithfulness_score": 5,
+      "relevance_score": 5
+    },
+    {
+      "question": "What are NovaBridge's two physical office locations?",
+      "expected_source": "company_overview.txt",
+      "retrieved_sources": [
+        "company_overview.txt",
+        "company_overview.txt",
+        "company_overview.txt",
+        "company_departments.md",
+        "company_overview.txt",
+        "company_benefits.pdf"
+      ],
+      "hit": 1,
+      "reciprocal_rank": 1.0,
+      "answer": "NovaBridge’s two physical office locations are **Austin, Texas** and **Lisbon, Portugal**. (Source: company_overview.txt)",
+      "faithfulness_score": 5,
+      "relevance_score": 5
+    },
+    {
+      "question": "What security compliance certifications does the NovaBridge Data Platform have?",
+      "expected_source": "company_overview.txt",
+      "retrieved_sources": [
+        "company_overview.txt",
+        "company_departments.md",
+        "company_departments.md",
+        "company_overview.txt",
+        "company_benefits.pdf",
+        "company_overview.txt"
+      ],
+      "hit": 1,
+      "reciprocal_rank": 1.0,
+      "answer": "The NovaBridge Data Platform provides compliance reporting for **SOC 2 Type II** and is **GDPR‑aligned**. (Source: company_overview.txt)",
+      "faithfulness_score": 5,
+      "relevance_score": 3
+    },
+    {
+      "question": "How many business days before a new hire's start date does IT provision the laptop, email, and VPN access?",
+      "expected_source": "company_internal_procedures.docx",
+      "retrieved_sources": [
+        "company_internal_procedures.docx",
+        "company_internal_procedures.docx",
+        "company_internal_procedures.docx",
+        "company_internal_procedures.docx",
+        "company_internal_procedures.docx",
+        "company_benefits.pdf"
+      ],
+      "hit": 1,
+      "reciprocal_rank": 1.0,
+      "answer": "IT provisions the laptop, email account, VPN access, and required software licenses **at least 3 business days before the new hire’s start date**. (Source: company_internal_procedures.docx, Source 1)",
+      "faithfulness_score": 5,
+      "relevance_score": 5
+    },
+    {
+      "question": "Within how many days of a purchase must employees submit an expense with a receipt?",
+      "expected_source": "company_internal_procedures.docx",
+      "retrieved_sources": [
+        "company_internal_procedures.docx",
+        "company_internal_procedures.docx",
+        "company_internal_procedures.docx",
+        "company_internal_procedures.docx",
+        "company_internal_procedures.docx",
+        "company_internal_procedures.docx"
+      ],
+      "hit": 1,
+      "reciprocal_rank": 1.0,
+      "answer": "Employees must submit expenses with a receipt within 30 days of the purchase date. (Source: company_internal_procedures.docx)",
+      "faithfulness_score": 5,
+      "relevance_score": 5
+    },
+    {
+      "question": "What expense amount is auto-approved without requiring manager approval?",
+      "expected_source": "company_internal_procedures.docx",
+      "retrieved_sources": [
+        "company_internal_procedures.docx",
+        "company_internal_procedures.docx"
+      ],
+      "hit": 1,
+      "reciprocal_rank": 1.0,
+      "answer": "Expenses that are **under $100** are auto‑approved and do not require manager approval. (Source: company_internal_procedures.docx)",
+      "faithfulness_score": 5,
+      "relevance_score": 5
+    },
+    {
+      "question": "What purchase amount requires Finance and executive approval?",
+      "expected_source": "company_internal_procedures.docx",
+      "retrieved_sources": [
+        "company_internal_procedures.docx",
+        "company_internal_procedures.docx"
+      ],
+      "hit": 1,
+      "reciprocal_rank": 1.0,
+      "answer": "Purchases of **$10,000 or more** require Finance and executive approval. (Source: company_internal_procedures.docx)",
+      "faithfulness_score": 5,
+      "relevance_score": 5
+    },
+    {
+      "question": "How many business days before an employee's last working day should their manager notify People Operations and IT for offboarding?",
+      "expected_source": "company_internal_procedures.docx",
+      "retrieved_sources": [
+        "company_internal_procedures.docx",
+        "company_internal_procedures.docx",
+        "company_internal_procedures.docx",
+        "company_internal_procedures.docx",
+        "company_benefits.pdf",
+        "company_internal_procedures.docx"
+      ],
+      "hit": 1,
+      "reciprocal_rank": 1.0,
+      "answer": "The manager should notify People Operations and IT **at least 5 business days** before the employee’s last working day. (Source: company_internal_procedures.docx)",
+      "faithfulness_score": 5,
+      "relevance_score": 5
+    },
+    {
+      "question": "What is the gift value threshold above which employees must disclose gifts from vendors?",
+      "expected_source": "hr_code_of_conduct.md",
+      "retrieved_sources": [
+        "hr_code_of_conduct.md",
+        "hr_employee_handbook.pdf",
+        "hr_employee_handbook.pdf",
+        "hr_code_of_conduct.md",
+        "hr_employee_handbook.pdf"
+      ],
+      "hit": 1,
+      "reciprocal_rank": 1.0,
+      "answer": "Employees must disclose any gifts from vendors or partners that exceed the nominal value of $75. (Source: hr_code_of_conduct.md)",
+      "faithfulness_score": 5,
+      "relevance_score": 5
+    },
+    {
+      "question": "What email address should employees use to report an ethics concern confidentially?",
+      "expected_source": "hr_code_of_conduct.md",
+      "retrieved_sources": [
+        "hr_code_of_conduct.md",
+        "hr_employee_handbook.pdf",
+        "hr_code_of_conduct.md",
+        "hr_employee_handbook.pdf",
+        "hr_employee_handbook.pdf",
+        "hr_employee_handbook.pdf"
+      ],
+      "hit": 1,
+      "reciprocal_rank": 1.0,
+      "answer": "Employees should use the confidential ethics reporting channel at **ethics@novabridge.example**. (Source: hr_code_of_conduct.md)",
+      "faithfulness_score": 5,
+      "relevance_score": 5
+    },
+    {
+      "question": "Do confidentiality obligations under the Code of Conduct end when an employee leaves the company?",
+      "expected_source": "hr_code_of_conduct.md",
+      "retrieved_sources": [
+        "hr_code_of_conduct.md",
+        "hr_employee_handbook.pdf",
+        "hr_employee_handbook.pdf",
+        "hr_code_of_conduct.md",
+        "hr_code_of_conduct.md",
+        "hr_code_of_conduct.md"
+      ],
+      "hit": 1,
+      "reciprocal_rank": 1.0,
+      "answer": "No. The confidentiality obligations do **not** end when an employee leaves the company; they continue after the employee’s employment ends. (Source: hr_code_of_conduct.md)",
+      "faithfulness_score": 5,
+      "relevance_score": 5
+    },
+    {
+      "question": "How many days in advance must planned absences like vacation be requested under the Attendance Policy?",
+      "expected_source": "hr_attendance_policy.docx",
+      "retrieved_sources": [
+        "hr_attendance_policy.docx",
+        "hr_leave_policy.md",
+        "hr_employee_handbook.pdf",
+        "hr_employee_handbook.pdf",
+        "hr_attendance_policy.docx",
+        "hr_health_insurance_policy.pdf"
+      ],
+      "hit": 1,
+      "reciprocal_rank": 1.0,
+      "answer": "Planned absences such as vacation must be requested in the HR portal at least **7 days in advance**. (Source: hr_attendance_policy.docx)",
+      "faithfulness_score": 5,
+      "relevance_score": 5
+    },
+    {
+      "question": "After how many consecutive no-call/no-show workdays is an employee considered to have voluntarily resigned?",
+      "expected_source": "hr_attendance_policy.docx",
+      "retrieved_sources": [
+        "hr_attendance_policy.docx",
+        "hr_employee_handbook.pdf",
+        "hr_attendance_policy.docx",
+        "hr_employee_handbook.pdf",
+        "hr_attendance_policy.docx",
+        "hr_leave_policy.md"
+      ],
+      "hit": 1,
+      "reciprocal_rank": 1.0,
+      "answer": "The documents provide two different thresholds:\n\n* **Source 1** states that an employee who is absent for **3 consecutive scheduled workdays** without notifying their manager is considered to have voluntarily resigned (unless extenuating circumstances are identified).  \n* **Source 2** says that if an employee fails to notify their supervisor after **two (2) consecutive days** of absence, the employer will presume the employee has voluntarily resigned.\n\nThus, the policy is inconsistent across the sources: one specifies three days, the other specifies two days. (Sources: hr_attendance_policy.docx; hr_employee_handbook.pdf)",
+      "faithfulness_score": null,
+      "relevance_score": 5
+    },
+    {
+      "question": "How many unreported or unapproved absences within a 90-day period counts as excessive absenteeism?",
+      "expected_source": "hr_attendance_policy.docx",
+      "retrieved_sources": [
+        "hr_attendance_policy.docx",
+        "hr_attendance_policy.docx",
+        "hr_attendance_policy.docx",
+        "hr_employee_handbook.pdf",
+        "hr_remote_work_policy.txt",
+        "hr_employee_handbook.pdf"
+      ],
+      "hit": 1,
+      "reciprocal_rank": 1.0,
+      "answer": "Excessive absenteeism is triggered when an employee has **more than 4 unreported or unapproved absences** within a rolling 90‑day period. (Source: hr_attendance_policy.docx)",
+      "faithfulness_score": 5,
+      "relevance_score": 5
+    },
+    {
+      "question": "How many tardiness occurrences within a rolling 30-day period may result in a documented conversation with a manager?",
+      "expected_source": "hr_attendance_policy.docx",
+      "retrieved_sources": [
+        "hr_attendance_policy.docx",
+        "hr_attendance_policy.docx",
+        "hr_employee_handbook.pdf"
+      ],
+      "hit": 1,
+      "reciprocal_rank": 1.0,
+      "answer": "Repeated tardiness of **three or more occurrences within a rolling 30‑day period** may result in a documented conversation with the employee’s manager. (Source: hr_attendance_policy.docx)",
+      "faithfulness_score": 5,
+      "relevance_score": 5
+    },
+    {
+      "question": "How many vacation days are eligible employees entitled to per year according to the Employee Handbook?",
+      "expected_source": "hr_employee_handbook.pdf",
+      "retrieved_sources": [
+        "hr_employee_handbook.pdf",
+        "hr_employee_handbook.pdf",
+        "hr_leave_policy.md",
+        "hr_parental_leave_policy.txt",
+        "hr_leave_policy.md",
+        "hr_employee_handbook.pdf"
+      ],
+      "hit": 1,
+      "reciprocal_rank": 1.0,
+      "answer": "Eligible employees are entitled to up to **15 vacation days per year** as paid time off (PTO). (Source: hr_employee_handbook.pdf)",
+      "faithfulness_score": 5,
+      "relevance_score": 5
+    },
+    {
+      "question": "How many weeks of maternity leave does the Employee Handbook provide?",
+      "expected_source": "hr_employee_handbook.pdf",
+      "retrieved_sources": [
+        "hr_employee_handbook.pdf",
+        "hr_parental_leave_policy.txt",
+        "hr_leave_policy.md",
+        "hr_parental_leave_policy.txt",
+        "hr_attendance_policy.docx",
+        "hr_parental_leave_policy.txt"
+      ],
+      "hit": 1,
+      "reciprocal_rank": 1.0,
+      "answer": "The Employee Handbook provides up to **12 weeks** of maternity leave (or the minimum time period required under federal and state law, whichever is longer). (Source: hr_employee_handbook.pdf)",
+      "faithfulness_score": 5,
+      "relevance_score": 5
+    },
+    {
+      "question": "What is the maximum length of the probationary period for new non-exempt employees?",
+      "expected_source": "hr_employee_handbook.pdf",
+      "retrieved_sources": [
+        "hr_employee_handbook.pdf",
+        "hr_remote_work_policy.txt",
+        "hr_health_insurance_policy.pdf",
+        "hr_employee_handbook.pdf",
+        "hr_employee_handbook.pdf",
+        "hr_parental_leave_policy.txt"
+      ],
+      "hit": 1,
+      "reciprocal_rank": 1.0,
+      "answer": "The probationary period for new non‑exempt employees can last up to **90 days**. (Source: hr_employee_handbook.pdf)",
+      "faithfulness_score": 5,
+      "relevance_score": 5
+    },
+    {
+      "question": "What is the overtime pay rate for non-exempt employees per the Employee Handbook?",
+      "expected_source": "hr_employee_handbook.pdf",
+      "retrieved_sources": [
+        "hr_employee_handbook.pdf",
+        "hr_employee_handbook.pdf",
+        "hr_employee_handbook.pdf",
+        "hr_employee_handbook.pdf",
+        "hr_employee_handbook.pdf",
+        "hr_employee_handbook.pdf"
+      ],
+      "hit": 1,
+      "reciprocal_rank": 1.0,
+      "answer": "The handbook states that non‑exempt employees receive overtime at “time and one‑half per hour worked beyond 40 hours.” (Source: hr_employee_handbook.pdf – Section 3.4)",
+      "faithfulness_score": null,
+      "relevance_score": 5
+    },
+    {
+      "question": "Is drug testing required as part of employment at NovaBridge?",
+      "expected_source": "hr_employee_handbook.pdf",
+      "retrieved_sources": [
+        "hr_employee_handbook.pdf",
+        "hr_code_of_conduct.md",
+        "hr_health_insurance_policy.pdf",
+        "hr_employee_handbook.pdf",
+        "hr_code_of_conduct.md",
+        "hr_parental_leave_policy.txt"
+      ],
+      "hit": 1,
+      "reciprocal_rank": 1.0,
+      "answer": "Yes. The handbook indicates that drug testing **is required** as part of a person’s employment with NovaBridge Technologies Inc. (Source: hr_employee_handbook.pdf).",
+      "faithfulness_score": 5,
+      "relevance_score": 5
+    },
+    {
+      "question": "What are the two health insurance plan options offered by NovaBridge?",
+      "expected_source": "hr_health_insurance_policy.pdf",
+      "retrieved_sources": [
+        "hr_health_insurance_policy.pdf",
+        "hr_health_insurance_policy.pdf",
+        "hr_health_insurance_policy.pdf",
+        "hr_leave_policy.md",
+        "hr_health_insurance_policy.pdf",
+        "hr_employee_handbook.pdf"
+      ],
+      "hit": 1,
+      "reciprocal_rank": 1.0,
+      "answer": "NovaBridge offers two health‑insurance plan options:\n\n1. **PPO Plan** – higher monthly premium with a lower deductible.  \n2. **HDHP with HSA** – lower monthly premium with a higher deductible, plus a company‑funded Health Savings Account contribution.\n\n(Source: hr_health_insurance_policy.pdf – Section “Plan Options”)",
+      "faithfulness_score": 5,
+      "relevance_score": 5
+    },
+    {
+      "question": "What is the individual deductible for the PPO health plan?",
+      "expected_source": "hr_health_insurance_policy.pdf",
+      "retrieved_sources": [
+        "hr_health_insurance_policy.pdf",
+        "hr_employee_handbook.pdf",
+        "hr_employee_handbook.pdf"
+      ],
+      "hit": 1,
+      "reciprocal_rank": 1.0,
+      "answer": "The individual deductible for the PPO health plan is **$500**. (Source: hr_health_insurance_policy.pdf)",
+      "faithfulness_score": 5,
+      "relevance_score": 5
+    },
+    {
+      "question": "When does Open Enrollment for health insurance occur each year?",
+      "expected_source": "hr_health_insurance_policy.pdf",
+      "retrieved_sources": [
+        "hr_health_insurance_policy.pdf",
+        "hr_health_insurance_policy.pdf",
+        "hr_health_insurance_policy.pdf"
+      ],
+      "hit": 1,
+      "reciprocal_rank": 1.0,
+      "answer": "Open Enrollment takes place each year in November. (Source: hr_health_insurance_policy.pdf)",
+      "faithfulness_score": 5,
+      "relevance_score": 5
+    },
+    {
+      "question": "How many days do new hires have to enroll in health insurance after becoming eligible?",
+      "expected_source": "hr_health_insurance_policy.pdf",
+      "retrieved_sources": [
+        "hr_health_insurance_policy.pdf",
+        "hr_health_insurance_policy.pdf",
+        "hr_health_insurance_policy.pdf",
+        "hr_remote_work_policy.txt",
+        "hr_employee_handbook.pdf",
+        "hr_leave_policy.md"
+      ],
+      "hit": 1,
+      "reciprocal_rank": 1.0,
+      "answer": "New hires have **30 days** to enroll in health insurance after their eligibility date. (Source: hr_health_insurance_policy.pdf)",
+      "faithfulness_score": 5,
+      "relevance_score": 5
+    },
+    {
+      "question": "How many sick days do employees get per year under the Leave Policy?",
+      "expected_source": "hr_leave_policy.md",
+      "retrieved_sources": [
+        "hr_leave_policy.md",
+        "hr_parental_leave_policy.txt",
+        "hr_employee_handbook.pdf",
+        "hr_attendance_policy.docx",
+        "hr_leave_policy.md",
+        "hr_leave_policy.md"
+      ],
+      "hit": 1,
+      "reciprocal_rank": 1.0,
+      "answer": "Employees are entitled to **10 sick days per year**. (Source: hr_leave_policy.md; Source: hr_employee_handbook.pdf)",
+      "faithfulness_score": 5,
+      "relevance_score": 5
+    },
+    {
+      "question": "How many hours of unused vacation days can be rolled over into the next year?",
+      "expected_source": "hr_leave_policy.md",
+      "retrieved_sources": [
+        "hr_leave_policy.md",
+        "hr_employee_handbook.pdf",
+        "hr_leave_policy.md",
+        "hr_attendance_policy.docx",
+        "hr_leave_policy.md"
+      ],
+      "hit": 1,
+      "reciprocal_rank": 1.0,
+      "answer": "Up to **40 hours** of unused Vacation Days may be rolled over into the next calendar year. (Source: hr_leave_policy.md; Source: hr_employee_handbook.pdf)",
+      "faithfulness_score": null,
+      "relevance_score": 5
+    },
+    {
+      "question": "How many days in advance must non-emergency leave be requested?",
+      "expected_source": "hr_leave_policy.md",
+      "retrieved_sources": [
+        "hr_leave_policy.md",
+        "hr_attendance_policy.docx",
+        "hr_employee_handbook.pdf",
+        "hr_leave_policy.md",
+        "hr_leave_policy.md",
+        "hr_employee_handbook.pdf"
+      ],
+      "hit": 1,
+      "reciprocal_rank": 1.0,
+      "answer": "Non‑emergency leave must be requested **at least 7 days in advance**. (Source: hr_leave_policy.md; hr_attendance_policy.docx; hr_employee_handbook.pdf)",
+      "faithfulness_score": null,
+      "relevance_score": 5
+    },
+    {
+      "question": "How many years of continuous service are required to be eligible for a sabbatical?",
+      "expected_source": "hr_leave_policy.md",
+      "retrieved_sources": [
+        "hr_leave_policy.md",
+        "hr_parental_leave_policy.txt",
+        "hr_remote_work_policy.txt",
+        "hr_employee_handbook.pdf"
+      ],
+      "hit": 1,
+      "reciprocal_rank": 1.0,
+      "answer": "Employees must have completed **5 years of continuous service** to be eligible for a sabbatical. (Source: hr_leave_policy.md)",
+      "faithfulness_score": 5,
+      "relevance_score": 5
+    },
+    {
+      "question": "How many weeks of paid leave does a non-birthing/secondary caregiver receive under the Parental Leave Policy?",
+      "expected_source": "hr_parental_leave_policy.txt",
+      "retrieved_sources": [
+        "hr_parental_leave_policy.txt",
+        "hr_parental_leave_policy.txt",
+        "hr_parental_leave_policy.txt",
+        "hr_parental_leave_policy.txt",
+        "hr_parental_leave_policy.txt",
+        "hr_employee_handbook.pdf"
+      ],
+      "hit": 1,
+      "reciprocal_rank": 1.0,
+      "answer": "A non‑birthing parent or secondary caregiver is entitled to **6 weeks of fully paid leave** under the Parental Leave Policy. (Source: hr_parental_leave_policy.txt)",
+      "faithfulness_score": 5,
+      "relevance_score": 5
+    },
+    {
+      "question": "How many months of continuous service are required to be eligible for paid parental leave?",
+      "expected_source": "hr_parental_leave_policy.txt",
+      "retrieved_sources": [
+        "hr_parental_leave_policy.txt",
+        "hr_parental_leave_policy.txt",
+        "hr_parental_leave_policy.txt",
+        "hr_leave_policy.md",
+        "hr_parental_leave_policy.txt",
+        "hr_parental_leave_policy.txt"
+      ],
+      "hit": 1,
+      "reciprocal_rank": 1.0,
+      "answer": "Employees must have completed at least **6 months of continuous service** to be eligible for paid parental leave. (Source: hr_parental_leave_policy.txt)",
+      "faithfulness_score": 5,
+      "relevance_score": 5
+    },
+    {
+      "question": "How many weeks of paid leave does the primary caregiver get in an adoption or foster placement?",
+      "expected_source": "hr_parental_leave_policy.txt",
+      "retrieved_sources": [
+        "hr_parental_leave_policy.txt",
+        "hr_parental_leave_policy.txt",
+        "hr_parental_leave_policy.txt",
+        "hr_parental_leave_policy.txt",
+        "hr_parental_leave_policy.txt",
+        "hr_employee_handbook.pdf"
+      ],
+      "hit": 1,
+      "reciprocal_rank": 1.0,
+      "answer": "The primary caregiver receives **6 weeks of fully paid leave** for an adoption or foster placement. (Source: hr_parental_leave_policy.txt)",
+      "faithfulness_score": 5,
+      "relevance_score": 5
+    },
+    {
+      "question": "How many days per week minimum must Hybrid employees work from the office?",
+      "expected_source": "hr_remote_work_policy.txt",
+      "retrieved_sources": [
+        "hr_remote_work_policy.txt",
+        "hr_remote_work_policy.txt",
+        "hr_attendance_policy.docx",
+        "hr_employee_handbook.pdf",
+        "hr_attendance_policy.docx",
+        "hr_employee_handbook.pdf"
+      ],
+      "hit": 1,
+      "reciprocal_rank": 1.0,
+      "answer": "Hybrid employees must work in the office at least 2 days per week, unless a different arrangement is agreed with their manager. (Source: hr_remote_work_policy.txt)",
+      "faithfulness_score": 5,
+      "relevance_score": 5
+    },
+    {
+      "question": "What is the one-time home office stipend for new remote employees?",
+      "expected_source": "hr_remote_work_policy.txt",
+      "retrieved_sources": [
+        "hr_remote_work_policy.txt",
+        "hr_remote_work_policy.txt",
+        "hr_attendance_policy.docx",
+        "hr_remote_work_policy.txt",
+        "hr_remote_work_policy.txt",
+        "hr_remote_work_policy.txt"
+      ],
+      "hit": 1,
+      "reciprocal_rank": 1.0,
+      "answer": "The one-time home office stipend is **$500** for eligible remote employees during their first 90 days. (Source: hr_remote_work_policy.txt)",
+      "faithfulness_score": 5,
+      "relevance_score": 5
+    },
+    {
+      "question": "What are the core hours remote employees must be reachable during?",
+      "expected_source": "hr_remote_work_policy.txt",
+      "retrieved_sources": [
+        "hr_remote_work_policy.txt",
+        "hr_attendance_policy.docx",
+        "hr_attendance_policy.docx",
+        "hr_remote_work_policy.txt",
+        "hr_remote_work_policy.txt",
+        "hr_remote_work_policy.txt"
+      ],
+      "hit": 1,
+      "reciprocal_rank": 1.0,
+      "answer": "Remote employees must be reachable during the core hours of 11:00 AM to 4:00 PM in their team’s primary (local) time zone. (Source: hr_remote_work_policy.txt; hr_attendance_policy.docx)",
+      "faithfulness_score": 5,
+      "relevance_score": 5
+    },
+    {
+      "question": "How long is the probationary period before an employee becomes eligible to request remote work?",
+      "expected_source": "hr_remote_work_policy.txt",
+      "retrieved_sources": [
+        "hr_remote_work_policy.txt",
+        "hr_leave_policy.md",
+        "hr_employee_handbook.pdf",
+        "hr_remote_work_policy.txt",
+        "hr_remote_work_policy.txt",
+        "hr_remote_work_policy.txt"
+      ],
+      "hit": 1,
+      "reciprocal_rank": 1.0,
+      "answer": "Employees must complete a 90‑day probationary period before they are eligible to request a remote or hybrid work arrangement. (Source: hr_remote_work_policy.txt; Source: hr_employee_handbook.pdf)",
+      "faithfulness_score": null,
+      "relevance_score": 5
+    },
+    {
+      "question": "Within how many hours must a lost or stolen device be reported to IT?",
+      "expected_source": "it_device_policy.md",
+      "retrieved_sources": [
+        "it_device_policy.md",
+        "it_device_policy.md",
+        "it_security_policy.pdf",
+        "it_incident_response_guide.pdf",
+        "it_security_policy.pdf",
+        "it_device_policy.md"
+      ],
+      "hit": 1,
+      "reciprocal_rank": 1.0,
+      "answer": "A lost or stolen device must be reported to IT no later than 2 hours after discovery. (Source: it_device_policy.md)",
+      "faithfulness_score": 5,
+      "relevance_score": 5
+    },
+    {
+      "question": "What full-disk encryption is required on Windows and macOS company devices?",
+      "expected_source": "it_device_policy.md",
+      "retrieved_sources": [
+        "it_device_policy.md",
+        "it_device_policy.md",
+        "it_device_policy.md",
+        "it_security_policy.pdf",
+        "it_security_policy.pdf",
+        "it_security_policy.pdf"
+      ],
+      "hit": 1,
+      "reciprocal_rank": 1.0,
+      "answer": "The policy requires full‑disk encryption to be enabled, specifically **BitLocker for Windows devices** and **FileVault for macOS devices**. (Source: it_device_policy.md)",
+      "faithfulness_score": 5,
+      "relevance_score": 5
+    },
+    {
+      "question": "Within how many hours must critical security patches be applied to devices?",
+      "expected_source": "it_device_policy.md",
+      "retrieved_sources": [
+        "it_security_policy.pdf",
+        "it_device_policy.md",
+        "it_incident_response_guide.pdf",
+        "it_device_policy.md",
+        "it_security_policy.pdf",
+        "it_incident_response_guide.pdf"
+      ],
+      "hit": 1,
+      "reciprocal_rank": 0.5,
+      "answer": "Critical security patches must be applied within **72 hours** of release. (Source: it_security_policy.pdf; it_device_policy.md)",
+      "faithfulness_score": 5,
+      "relevance_score": 5
+    },
+    {
+      "question": "What is the required response time for a SEV-2 security incident?",
+      "expected_source": "it_incident_response_guide.pdf",
+      "retrieved_sources": [
+        "it_incident_response_guide.pdf",
+        "it_incident_response_guide.pdf",
+        "it_incident_response_guide.pdf",
+        "it_security_policy.pdf",
+        "it_security_policy.pdf",
+        "it_device_policy.md"
+      ],
+      "hit": 1,
+      "reciprocal_rank": 1.0,
+      "answer": "The required response time for a SEV‑2 security incident is **within 4 hours**. (Source: it_incident_response_guide.pdf)",
+      "faithfulness_score": 5,
+      "relevance_score": 5
+    },
+    {
+      "question": "Within how many business days is a post-incident review conducted for SEV-1 or SEV-2 incidents?",
+      "expected_source": "it_incident_response_guide.pdf",
+      "retrieved_sources": [
+        "it_incident_response_guide.pdf",
+        "it_incident_response_guide.pdf",
+        "it_incident_response_guide.pdf",
+        "it_vpn_documentation.docx",
+        "it_security_policy.pdf",
+        "it_device_policy.md"
+      ],
+      "hit": 1,
+      "reciprocal_rank": 1.0,
+      "answer": "A blameless post‑incident review is conducted **within 5 business days** of resolution for SEV‑1 and SEV‑2 incidents. (Source: it_incident_response_guide.pdf)",
+      "faithfulness_score": 5,
+      "relevance_score": 5
+    },
+    {
+      "question": "What email address should be used to report a security incident?",
+      "expected_source": "it_incident_response_guide.pdf",
+      "retrieved_sources": [
+        "it_security_policy.pdf",
+        "it_incident_response_guide.pdf",
+        "it_incident_response_guide.pdf",
+        "it_incident_response_guide.pdf",
+        "it_incident_response_guide.pdf",
+        "it_security_policy.pdf"
+      ],
+      "hit": 1,
+      "reciprocal_rank": 0.5,
+      "answer": "The security incident should be reported to **security@novabridge.example**. (Source: it_security_policy.pdf; it_incident_response_guide.pdf)",
+      "faithfulness_score": 5,
+      "relevance_score": 5
+    },
+    {
+      "question": "What is the minimum required password length at NovaBridge?",
+      "expected_source": "it_password_policy.txt",
+      "retrieved_sources": [
+        "it_password_policy.txt",
+        "it_password_policy.txt",
+        "it_vpn_documentation.docx",
+        "it_security_policy.pdf",
+        "it_incident_response_guide.pdf",
+        "it_vpn_documentation.docx"
+      ],
+      "hit": 1,
+      "reciprocal_rank": 1.0,
+      "answer": "The minimum required password length is **14 characters**. (Source: it_password_policy.txt)",
+      "faithfulness_score": 5,
+      "relevance_score": 5
+    },
+    {
+      "question": "After how many failed login attempts is an account automatically locked?",
+      "expected_source": "it_password_policy.txt",
+      "retrieved_sources": [
+        "it_password_policy.txt",
+        "it_device_policy.md",
+        "it_device_policy.md"
+      ],
+      "hit": 1,
+      "reciprocal_rank": 1.0,
+      "answer": "An account is automatically locked after **5 consecutive failed login attempts**. (Source: it_password_policy.txt)",
+      "faithfulness_score": 5,
+      "relevance_score": 5
+    },
+    {
+      "question": "How often must privileged account passwords (system/database admins) be changed?",
+      "expected_source": "it_password_policy.txt",
+      "retrieved_sources": [
+        "it_password_policy.txt",
+        "it_password_policy.txt",
+        "it_security_policy.pdf",
+        "it_device_policy.md",
+        "it_password_policy.txt",
+        "it_password_policy.txt"
+      ],
+      "hit": 1,
+      "reciprocal_rank": 1.0,
+      "answer": "Privileged account passwords (for system administrators and database administrators) must be changed every 90 days. (Source: it_password_policy.txt)",
+      "faithfulness_score": 5,
+      "relevance_score": 5
+    },
+    {
+      "question": "What are the four information classification levels defined in the IT Security Policy?",
+      "expected_source": "it_security_policy.pdf",
+      "retrieved_sources": [
+        "it_incident_response_guide.pdf",
+        "it_security_policy.pdf",
+        "it_incident_response_guide.pdf",
+        "it_security_policy.pdf",
+        "it_incident_response_guide.pdf",
+        "it_security_policy.pdf"
+      ],
+      "hit": 1,
+      "reciprocal_rank": 0.5,
+      "answer": "The IT Security Policy defines four information‑classification levels:\n\n1. **Public** – information approved for external release.  \n2. **Internal** – information intended for employees only.  \n3. **Confidential** – sensitive business information requiring restricted access.  \n4. **Restricted** – highly sensitive data requiring the strictest controls and encryption.  \n\n(Source: it_security_policy.pdf)",
+      "faithfulness_score": null,
+      "relevance_score": 5
+    },
+    {
+      "question": "How long are data backups retained according to the IT Security Policy?",
+      "expected_source": "it_security_policy.pdf",
+      "retrieved_sources": [
+        "it_security_policy.pdf",
+        "it_vpn_documentation.docx",
+        "it_device_policy.md",
+        "it_security_policy.pdf",
+        "it_security_policy.pdf",
+        "it_security_policy.pdf"
+      ],
+      "hit": 1,
+      "reciprocal_rank": 1.0,
+      "answer": "Data backups are retained for **30 days**. (Source: it_security_policy.pdf)",
+      "faithfulness_score": 5,
+      "relevance_score": 5
+    },
+    {
+      "question": "Within how many weeks of employment must new employees complete security awareness training?",
+      "expected_source": "it_security_policy.pdf",
+      "retrieved_sources": [
+        "it_security_policy.pdf",
+        "it_device_policy.md",
+        "it_security_policy.pdf",
+        "it_password_policy.txt",
+        "it_device_policy.md"
+      ],
+      "hit": 1,
+      "reciprocal_rank": 1.0,
+      "answer": "New employees must complete security awareness training within **2 weeks** of employment. (Source: it_security_policy.pdf)",
+      "faithfulness_score": 5,
+      "relevance_score": 5
+    },
+    {
+      "question": "What is the name of the company-approved VPN client?",
+      "expected_source": "it_vpn_documentation.docx",
+      "retrieved_sources": [
+        "it_vpn_documentation.docx",
+        "it_password_policy.txt",
+        "it_vpn_documentation.docx",
+        "it_vpn_documentation.docx",
+        "it_vpn_documentation.docx",
+        "it_vpn_documentation.docx"
+      ],
+      "hit": 1,
+      "reciprocal_rank": 1.0,
+      "answer": "The company‑approved VPN client is **NovaConnect VPN**. (Source: it_vpn_documentation.docx)",
+      "faithfulness_score": 5,
+      "relevance_score": 5
+    },
+    {
+      "question": "After how many minutes of inactivity does a VPN session automatically disconnect?",
+      "expected_source": "it_vpn_documentation.docx",
+      "retrieved_sources": [
+        "it_vpn_documentation.docx",
+        "it_device_policy.md",
+        "it_vpn_documentation.docx",
+        "it_vpn_documentation.docx",
+        "it_password_policy.txt",
+        "it_vpn_documentation.docx"
+      ],
+      "hit": 1,
+      "reciprocal_rank": 1.0,
+      "answer": "A VPN session automatically disconnects after **30 minutes of inactivity** (or after 10 hours, whichever occurs first). (Source: it_vpn_documentation.docx)",
+      "faithfulness_score": 5,
+      "relevance_score": 5
+    },
+    {
+      "question": "How long are VPN access logs retained?",
+      "expected_source": "it_vpn_documentation.docx",
+      "retrieved_sources": [
+        "it_vpn_documentation.docx",
+        "it_vpn_documentation.docx",
+        "it_incident_response_guide.pdf",
+        "it_password_policy.txt",
+        "it_security_policy.pdf",
+        "it_vpn_documentation.docx"
+      ],
+      "hit": 1,
+      "reciprocal_rank": 1.0,
+      "answer": "VPN access logs are retained for **180 days**. (Source: it_vpn_documentation.docx)",
+      "faithfulness_score": 5,
+      "relevance_score": 5
+    },
+    {
+      "question": "Are concurrent VPN sessions from more than one device for the same account permitted?",
+      "expected_source": "it_vpn_documentation.docx",
+      "retrieved_sources": [
+        "it_vpn_documentation.docx",
+        "it_vpn_documentation.docx",
+        "it_vpn_documentation.docx",
+        "it_vpn_documentation.docx",
+        "it_vpn_documentation.docx",
+        "it_device_policy.md"
+      ],
+      "hit": 1,
+      "reciprocal_rank": 1.0,
+      "answer": "No. Concurrent VPN sessions from more than one device for the same account are not permitted. (Source: it_vpn_documentation.docx)",
+      "faithfulness_score": 5,
+      "relevance_score": 5
+    }
+  ]
+}

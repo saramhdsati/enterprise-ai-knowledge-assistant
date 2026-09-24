@@ -1,0 +1,20 @@
+venv/
+__pycache__/
+*.pyc
+.env
+data/processed/
+*.log
+.DS_Store
+.pytest_cache/
+
+# Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# User-uploaded documents (not source code)
+data/uploads/
+
+# Editor/IDE
+.vscode/
+.idea/

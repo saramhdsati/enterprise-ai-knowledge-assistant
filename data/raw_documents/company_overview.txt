@@ -1,0 +1,47 @@
+NOVABRIDGE TECHNOLOGIES INC.
+COMPANY OVERVIEW
+Last revised: January 5, 2026
+Owner: Executive Team
+
+1. WHO WE ARE
+
+NovaBridge Technologies Inc. is a for-profit software company incorporated in the state of Delaware. We build cloud-based data infrastructure tools that help mid-size and enterprise companies manage, secure, and analyze their business data. Founded in 2018, the Company has grown from a small founding team to a distributed organization operating across North America, Europe, and Asia-Pacific.
+
+2. MISSION
+
+Our mission is to make enterprise data infrastructure simple, secure, and accessible — so that engineering and data teams can spend less time managing pipelines and more time building products their customers rely on.
+
+3. WHAT WE BUILD
+
+NovaBridge's core product, NovaBridge Data Platform, provides:
+- Managed data pipelines for ingesting, transforming, and syncing data across systems.
+- A unified data catalog with built-in access controls and audit logging.
+- Monitoring and alerting for data quality and pipeline health.
+- Enterprise-grade security features, including encryption, single sign-on, and compliance reporting (SOC 2 Type II, GDPR-aligned).
+
+4. COMPANY STRUCTURE
+
+NovaBridge operates as a single legal entity headquartered in Wilmington, Delaware, with a fully remote and hybrid workforce. Employees work from Company offices in Austin, TX and Lisbon, Portugal, or remotely from approved locations, consistent with the Remote Work Policy.
+
+5. HOW WE WORK
+
+- Remote-friendly by default: most roles support Fully Remote or Hybrid arrangements, as described in the Remote Work Policy.
+- Documentation-first: decisions, processes, and project plans are documented in the internal knowledge base so that any employee can find context asynchronously.
+- Outcome-driven: teams are evaluated on the impact of their work, not hours logged, consistent with the Employee Handbook's classification of exempt and non-exempt roles.
+
+6. VALUES
+
+- Customer Trust First — we treat customer data with the same care and security discipline we would want for our own.
+- Default to Transparency — internal decisions, roadmaps, and company updates are shared broadly within the Company unless there is a specific reason for confidentiality.
+- Iterate Quickly, Own the Outcome — we favor shipping and learning over long planning cycles, and every team owns the results of what they ship.
+- Respect by Default — disagreement is welcome; disrespect is not, consistent with the Code of Conduct.
+
+7. LEADERSHIP
+
+NovaBridge is led by an executive team consisting of the Chief Executive Officer, Chief Technology Officer, Chief Financial Officer, and VP of People Operations, supported by department leads across Engineering, Product, Sales, Customer Success, and G&A (General & Administrative) functions. See the Departments document for a full breakdown of team structure.
+
+8. CONTACT
+
+General inquiries: hello@novabridge.example
+People Operations: hr@novabridge.example
+Security: security@novabridge.example

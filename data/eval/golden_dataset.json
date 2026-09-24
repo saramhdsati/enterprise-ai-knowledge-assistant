@@ -1,0 +1,368 @@
+[
+  {
+    "question": "What percentage of the employee premium does NovaBridge cover for health insurance?",
+    "expected_source": "company_benefits.pdf",
+    "department": "Company",
+    "reference_answer": "The Company covers 80% of employee premiums."
+  },
+  {
+    "question": "How much is the monthly wellness stipend?",
+    "expected_source": "company_benefits.pdf",
+    "department": "Company",
+    "reference_answer": "$50 per month toward gym membership, fitness apps, or wellness activities."
+  },
+  {
+    "question": "What is the company's 401(k) match?",
+    "expected_source": "company_benefits.pdf",
+    "department": "Company",
+    "reference_answer": "A Company match of 50% on the first 6% of employee contributions."
+  },
+  {
+    "question": "How many free counseling sessions does the Employee Assistance Program offer per year?",
+    "expected_source": "company_benefits.pdf",
+    "department": "Company",
+    "reference_answer": "Up to 6 sessions per year per employee or household member."
+  },
+  {
+    "question": "What is the annual professional development budget per employee?",
+    "expected_source": "company_benefits.pdf",
+    "department": "Company",
+    "reference_answer": "$1,500 per employee per year."
+  },
+  {
+    "question": "How many departments is NovaBridge Technologies organized into?",
+    "expected_source": "company_departments.md",
+    "department": "Company",
+    "reference_answer": "Six departments."
+  },
+  {
+    "question": "Which Engineering sub-team works closely with IT Security?",
+    "expected_source": "company_departments.md",
+    "department": "Company",
+    "reference_answer": "Security Engineering."
+  },
+  {
+    "question": "How often is the company-wide All-Hands meeting held?",
+    "expected_source": "company_departments.md",
+    "department": "Company",
+    "reference_answer": "Monthly."
+  },
+  {
+    "question": "What functions fall under the G&A (General & Administrative) department?",
+    "expected_source": "company_departments.md",
+    "department": "Company",
+    "reference_answer": "People Operations (HR), Finance & Accounting, Legal, and IT."
+  },
+  {
+    "question": "In which US state is NovaBridge Technologies Inc. incorporated?",
+    "expected_source": "company_overview.txt",
+    "department": "Company",
+    "reference_answer": "Delaware."
+  },
+  {
+    "question": "In what year was NovaBridge founded?",
+    "expected_source": "company_overview.txt",
+    "department": "Company",
+    "reference_answer": "2018."
+  },
+  {
+    "question": "What are NovaBridge's two physical office locations?",
+    "expected_source": "company_overview.txt",
+    "department": "Company",
+    "reference_answer": "Austin, TX and Lisbon, Portugal."
+  },
+  {
+    "question": "What security compliance certifications does the NovaBridge Data Platform have?",
+    "expected_source": "company_overview.txt",
+    "department": "Company",
+    "reference_answer": "SOC 2 Type II certification and GDPR-aligned compliance reporting."
+  },
+  {
+    "question": "How many business days before a new hire's start date does IT provision the laptop, email, and VPN access?",
+    "expected_source": "company_internal_procedures.docx",
+    "department": "Company",
+    "reference_answer": "At least 3 business days before the start date."
+  },
+  {
+    "question": "Within how many days of a purchase must employees submit an expense with a receipt?",
+    "expected_source": "company_internal_procedures.docx",
+    "department": "Company",
+    "reference_answer": "Within 30 days of the purchase date."
+  },
+  {
+    "question": "What expense amount is auto-approved without requiring manager approval?",
+    "expected_source": "company_internal_procedures.docx",
+    "department": "Company",
+    "reference_answer": "Expenses under $100 are auto-approved."
+  },
+  {
+    "question": "What purchase amount requires Finance and executive approval?",
+    "expected_source": "company_internal_procedures.docx",
+    "department": "Company",
+    "reference_answer": "Purchases of $10,000 or more."
+  },
+  {
+    "question": "How many business days before an employee's last working day should their manager notify People Operations and IT for offboarding?",
+    "expected_source": "company_internal_procedures.docx",
+    "department": "Company",
+    "reference_answer": "At least 5 business days before the last working day, where possible."
+  },
+  {
+    "question": "What is the gift value threshold above which employees must disclose gifts from vendors?",
+    "expected_source": "hr_code_of_conduct.md",
+    "department": "HR",
+    "reference_answer": "Gifts beyond nominal value, generally under $75, require disclosure to a manager."
+  },
+  {
+    "question": "What email address should employees use to report an ethics concern confidentially?",
+    "expected_source": "hr_code_of_conduct.md",
+    "department": "HR",
+    "reference_answer": "ethics@novabridge.example"
+  },
+  {
+    "question": "Do confidentiality obligations under the Code of Conduct end when an employee leaves the company?",
+    "expected_source": "hr_code_of_conduct.md",
+    "department": "HR",
+    "reference_answer": "No, confidentiality obligations continue after the employee's employment ends."
+  },
+  {
+    "question": "How many days in advance must planned absences like vacation be requested under the Attendance Policy?",
+    "expected_source": "hr_attendance_policy.docx",
+    "department": "HR",
+    "reference_answer": "At least 7 days in advance, per the Leave Policy."
+  },
+  {
+    "question": "After how many consecutive no-call/no-show workdays is an employee considered to have voluntarily resigned?",
+    "expected_source": "hr_attendance_policy.docx",
+    "department": "HR",
+    "reference_answer": "3 consecutive scheduled workdays without notifying their manager."
+  },
+  {
+    "question": "How many unreported or unapproved absences within a 90-day period counts as excessive absenteeism?",
+    "expected_source": "hr_attendance_policy.docx",
+    "department": "HR",
+    "reference_answer": "More than 4 unreported or unapproved absences within a rolling 90-day period."
+  },
+  {
+    "question": "How many tardiness occurrences within a rolling 30-day period may result in a documented conversation with a manager?",
+    "expected_source": "hr_attendance_policy.docx",
+    "department": "HR",
+    "reference_answer": "3 or more occurrences within a rolling 30-day period."
+  },
+  {
+    "question": "How many vacation days are eligible employees entitled to per year according to the Employee Handbook?",
+    "expected_source": "hr_employee_handbook.pdf",
+    "department": "HR",
+    "reference_answer": "15 vacation days per year."
+  },
+  {
+    "question": "How many weeks of maternity leave does the Employee Handbook provide?",
+    "expected_source": "hr_employee_handbook.pdf",
+    "department": "HR",
+    "reference_answer": "12 weeks off, or the minimum required under federal/state law, whichever is longer."
+  },
+  {
+    "question": "What is the maximum length of the probationary period for new non-exempt employees?",
+    "expected_source": "hr_employee_handbook.pdf",
+    "department": "HR",
+    "reference_answer": "A maximum of 90 days."
+  },
+  {
+    "question": "What is the overtime pay rate for non-exempt employees per the Employee Handbook?",
+    "expected_source": "hr_employee_handbook.pdf",
+    "department": "HR",
+    "reference_answer": "Time and one-half per hour worked beyond 40 hours in a workweek."
+  },
+  {
+    "question": "Is drug testing required as part of employment at NovaBridge?",
+    "expected_source": "hr_employee_handbook.pdf",
+    "department": "HR",
+    "reference_answer": "Yes, drug testing is required as part of employment."
+  },
+  {
+    "question": "What are the two health insurance plan options offered by NovaBridge?",
+    "expected_source": "hr_health_insurance_policy.pdf",
+    "department": "HR",
+    "reference_answer": "A PPO Plan and an HDHP paired with an HSA."
+  },
+  {
+    "question": "What is the individual deductible for the PPO health plan?",
+    "expected_source": "hr_health_insurance_policy.pdf",
+    "department": "HR",
+    "reference_answer": "$500 for individual coverage."
+  },
+  {
+    "question": "When does Open Enrollment for health insurance occur each year?",
+    "expected_source": "hr_health_insurance_policy.pdf",
+    "department": "HR",
+    "reference_answer": "Each year in November, with coverage effective January 1."
+  },
+  {
+    "question": "How many days do new hires have to enroll in health insurance after becoming eligible?",
+    "expected_source": "hr_health_insurance_policy.pdf",
+    "department": "HR",
+    "reference_answer": "Within 30 days of their eligibility date."
+  },
+  {
+    "question": "How many sick days do employees get per year under the Leave Policy?",
+    "expected_source": "hr_leave_policy.md",
+    "department": "HR",
+    "reference_answer": "10 sick days per year."
+  },
+  {
+    "question": "How many hours of unused vacation days can be rolled over into the next year?",
+    "expected_source": "hr_leave_policy.md",
+    "department": "HR",
+    "reference_answer": "Up to 40 hours (5 days)."
+  },
+  {
+    "question": "How many days in advance must non-emergency leave be requested?",
+    "expected_source": "hr_leave_policy.md",
+    "department": "HR",
+    "reference_answer": "At least 7 days in advance."
+  },
+  {
+    "question": "How many years of continuous service are required to be eligible for a sabbatical?",
+    "expected_source": "hr_leave_policy.md",
+    "department": "HR",
+    "reference_answer": "5 years of continuous service, for a 4-week unpaid sabbatical."
+  },
+  {
+    "question": "How many weeks of paid leave does a non-birthing/secondary caregiver receive under the Parental Leave Policy?",
+    "expected_source": "hr_parental_leave_policy.txt",
+    "department": "HR",
+    "reference_answer": "6 weeks of fully paid leave."
+  },
+  {
+    "question": "How many months of continuous service are required to be eligible for paid parental leave?",
+    "expected_source": "hr_parental_leave_policy.txt",
+    "department": "HR",
+    "reference_answer": "At least 6 months of continuous service."
+  },
+  {
+    "question": "How many weeks of paid leave does the primary caregiver get in an adoption or foster placement?",
+    "expected_source": "hr_parental_leave_policy.txt",
+    "department": "HR",
+    "reference_answer": "6 weeks of fully paid leave for the primary caregiver."
+  },
+  {
+    "question": "How many days per week minimum must Hybrid employees work from the office?",
+    "expected_source": "hr_remote_work_policy.txt",
+    "department": "HR",
+    "reference_answer": "A minimum of 2 days per week in the office, unless otherwise agreed with their manager."
+  },
+  {
+    "question": "What is the one-time home office stipend for new remote employees?",
+    "expected_source": "hr_remote_work_policy.txt",
+    "department": "HR",
+    "reference_answer": "$500, claimed through the expense system during the first 90 days."
+  },
+  {
+    "question": "What are the core hours remote employees must be reachable during?",
+    "expected_source": "hr_remote_work_policy.txt",
+    "department": "HR",
+    "reference_answer": "Generally 11:00 AM to 4:00 PM in the team's primary time zone."
+  },
+  {
+    "question": "How long is the probationary period before an employee becomes eligible to request remote work?",
+    "expected_source": "hr_remote_work_policy.txt",
+    "department": "HR",
+    "reference_answer": "90 days."
+  },
+  {
+    "question": "Within how many hours must a lost or stolen device be reported to IT?",
+    "expected_source": "it_device_policy.md",
+    "department": "IT",
+    "reference_answer": "No later than 2 hours after discovery."
+  },
+  {
+    "question": "What full-disk encryption is required on Windows and macOS company devices?",
+    "expected_source": "it_device_policy.md",
+    "department": "IT",
+    "reference_answer": "BitLocker for Windows and FileVault for macOS."
+  },
+  {
+    "question": "Within how many hours must critical security patches be applied to devices?",
+    "expected_source": "it_device_policy.md",
+    "department": "IT",
+    "reference_answer": "Within 72 hours of release for critical patches (14 days for standard updates)."
+  },
+  {
+    "question": "What is the required response time for a SEV-2 security incident?",
+    "expected_source": "it_incident_response_guide.pdf",
+    "department": "IT",
+    "reference_answer": "Response within 4 hours."
+  },
+  {
+    "question": "Within how many business days is a post-incident review conducted for SEV-1 or SEV-2 incidents?",
+    "expected_source": "it_incident_response_guide.pdf",
+    "department": "IT",
+    "reference_answer": "Within 5 business days of resolution."
+  },
+  {
+    "question": "What email address should be used to report a security incident?",
+    "expected_source": "it_incident_response_guide.pdf",
+    "department": "IT",
+    "reference_answer": "security@novabridge.example"
+  },
+  {
+    "question": "What is the minimum required password length at NovaBridge?",
+    "expected_source": "it_password_policy.txt",
+    "department": "IT",
+    "reference_answer": "14 characters."
+  },
+  {
+    "question": "After how many failed login attempts is an account automatically locked?",
+    "expected_source": "it_password_policy.txt",
+    "department": "IT",
+    "reference_answer": "5 consecutive failed attempts within a 15-minute window."
+  },
+  {
+    "question": "How often must privileged account passwords (system/database admins) be changed?",
+    "expected_source": "it_password_policy.txt",
+    "department": "IT",
+    "reference_answer": "Every 90 days."
+  },
+  {
+    "question": "What are the four information classification levels defined in the IT Security Policy?",
+    "expected_source": "it_security_policy.pdf",
+    "department": "IT",
+    "reference_answer": "Public, Internal, Confidential, and Restricted."
+  },
+  {
+    "question": "How long are data backups retained according to the IT Security Policy?",
+    "expected_source": "it_security_policy.pdf",
+    "department": "IT",
+    "reference_answer": "30 days, with quarterly restore testing."
+  },
+  {
+    "question": "Within how many weeks of employment must new employees complete security awareness training?",
+    "expected_source": "it_security_policy.pdf",
+    "department": "IT",
+    "reference_answer": "Within their first 2 weeks of employment, and annually thereafter."
+  },
+  {
+    "question": "What is the name of the company-approved VPN client?",
+    "expected_source": "it_vpn_documentation.docx",
+    "department": "IT",
+    "reference_answer": "NovaConnect VPN."
+  },
+  {
+    "question": "After how many minutes of inactivity does a VPN session automatically disconnect?",
+    "expected_source": "it_vpn_documentation.docx",
+    "department": "IT",
+    "reference_answer": "30 minutes of inactivity (or 10 hours total, whichever comes first)."
+  },
+  {
+    "question": "How long are VPN access logs retained?",
+    "expected_source": "it_vpn_documentation.docx",
+    "department": "IT",
+    "reference_answer": "180 days."
+  },
+  {
+    "question": "Are concurrent VPN sessions from more than one device for the same account permitted?",
+    "expected_source": "it_vpn_documentation.docx",
+    "department": "IT",
+    "reference_answer": "No, concurrent VPN sessions from more than one device for the same account are not permitted."
+  }
+]

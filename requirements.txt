@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+pydantic-settings
+pydantic
+groq
+pypdf
+python-docx
+sentence-transformers
+rank-bm25
+python-jose[cryptography]
+passlib[bcrypt]
+bcrypt==4.0.1
+python-multipart
+requests
+qdrant-client

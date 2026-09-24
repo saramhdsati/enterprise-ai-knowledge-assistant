@@ -1,0 +1,68 @@
+NOVABRIDGE TECHNOLOGIES INC.
+REMOTE WORK POLICY
+Last revised: January 5, 2026
+Owner: People Operations
+
+1. PURPOSE
+
+This policy defines how employees of NovaBridge Technologies Inc. ("the Company") may work remotely, the expectations that apply while working outside a Company office, and the support the Company provides to remote employees.
+
+2. ELIGIBILITY
+
+2.1 All full-time employees who have completed the 90-day probationary period are eligible to request a remote or hybrid work arrangement, unless their role is explicitly designated as on-site (e.g., facilities, on-site IT support, lab technicians).
+
+2.2 New hires may work remotely from their first day only if their offer letter explicitly states a remote work arrangement.
+
+2.3 Eligibility for remote work does not transfer automatically between roles. Employees who change positions internally must reconfirm their remote work status with their new manager.
+
+3. WORK ARRANGEMENTS
+
+The Company recognizes three arrangements:
+
+a. Fully Remote — the employee has no assigned desk at a Company office and works from an approved remote location.
+b. Hybrid — the employee splits time between a Company office and a remote location, with a minimum of 2 days per week in the office unless otherwise agreed with their manager.
+c. Fully On-Site — the employee works from a Company office on all scheduled working days.
+
+4. WORKING HOURS AND AVAILABILITY
+
+4.1 Remote employees are expected to be reachable during their team's agreed core hours, generally 11:00 AM to 4:00 PM in the team's primary time zone.
+
+4.2 Employees working across time zones must coordinate overlap hours with their manager and document them in their team's working agreement.
+
+4.3 Remote work does not change an employee's total working hours or overtime eligibility, which remain governed by the Employee Handbook, Section 3 (Compensation).
+
+5. HOME OFFICE AND EQUIPMENT
+
+5.1 The Company provides a laptop and standard peripherals (monitor, keyboard, mouse, headset) to all remote employees.
+
+5.2 Employees working remotely are responsible for maintaining a reliable internet connection with a minimum recommended speed of 25 Mbps download / 5 Mbps upload.
+
+5.3 A one-time home office stipend of $500 is available to eligible remote employees during their first 90 days, to be claimed through the expense system with receipts.
+
+6. SECURITY REQUIREMENTS
+
+6.1 Remote employees must connect to Company systems using the corporate VPN as described in the IT VPN Documentation.
+
+6.2 Company-issued devices must not be shared with family members or other individuals.
+
+6.3 Employees must lock their screens when away from their workstation and must not work from unsecured public Wi-Fi networks without VPN protection.
+
+7. INTERNATIONAL REMOTE WORK
+
+7.1 Employees wishing to work remotely from a country other than their country of employment must obtain prior written approval from People Operations and Legal, due to tax, payroll, and immigration implications.
+
+7.2 Unapproved international remote work may affect an employee's eligibility for benefits and may create compliance risks for the Company.
+
+8. PERFORMANCE AND COMMUNICATION EXPECTATIONS
+
+8.1 Remote employees are evaluated on the same performance standards as on-site employees, based on outcomes rather than hours logged.
+
+8.2 Employees are expected to keep their calendar accurate and to communicate planned absences during working hours to their team in advance.
+
+9. REVOKING REMOTE WORK ARRANGEMENTS
+
+The Company reserves the right to modify or revoke an individual's remote work arrangement if performance, collaboration needs, or role requirements change, with reasonable notice except in cases of policy violation.
+
+10. QUESTIONS
+
+Questions about this policy should be directed to your manager or to People Operations at hr@novabridge.example.

@@ -1,0 +1,109 @@
+{
+  "sara sati": [
+    {
+      "id": "conv_ca6f8dcb9f",
+      "title": "What are the company's IT security polic...",
+      "created_at": "2026-09-20T00:15:02.834595+00:00",
+      "updated_at": "2026-09-20T00:15:05.165901+00:00",
+      "messages": [
+        {
+          "role": "user",
+          "text": "What are the company's IT security policies?"
+        },
+        {
+          "role": "assistant",
+          "text": "NovaBridge’s IT Security Policy sets baseline security requirements for all employees, contractors and third‑party users who access company systems. Key elements include:\n\n* **Purpose & Scope** – The policy protects the company’s information systems, data and infrastructure and applies to anyone with access (Source: it_security_policy.pdf [1]).\n* **Network Security** – Remote access must be made through a VPN; production environments are isolated from development and staging; firewalls and intrusion‑detection systems are continuously reviewed and updated by the IT Security team (Source: it_security_policy.pdf [4]).\n* **Policy Review** – The policy is reviewed each year by the IT Security team and updated as needed to address new threats, technologies and regulatory changes (Source: it_security_policy.pdf [3]).\n* **Incident Definition** – An incident includes suspected or confirmed unauthorized access, malware/ransomware, lost or stolen devices, phishing clicks or credential entry, and any exposure of Confidential or Restricted data (Source: it_incident_response_guide.pdf [2]).\n\nThese points together constitute the company’s IT security policies. (Sources: it_security_policy.pdf [1,3,4]; it_incident_response_guide.pdf [2])",
+          "sources": [
+            "it_security_policy.pdf",
+            "it_incident_response_guide.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "conv_f2756801a2",
+      "title": "Tell me about the company.",
+      "created_at": "2026-09-20T00:16:08.053476+00:00",
+      "updated_at": "2026-09-20T00:16:10.358907+00:00",
+      "messages": [
+        {
+          "role": "user",
+          "text": "Tell me about the company."
+        },
+        {
+          "role": "assistant",
+          "text": "NovaBridge Technologies Inc. has several key policies and safety procedures:\n\n* **Bring Your Own Device (BYOD)** – Employees may use personal phones or tablets for Company email and calendar only after enrolling the device in the approved Mobile Device Management (MDM) system. Personal devices cannot be used to access source‑code repositories, production systems, or customer data, and the Company can remotely wipe its data from a lost, stolen, or departing employee’s device. (Source: it_device_policy.md)\n\n* **Emergency Contact** – The internal emergency contact number is extension 7799, staffed 24 hours a day by the facilities team. (Source: office_safety_policy.txt)\n\n* **Evacuation Goal** – The building’s target evacuation time is 4 minutes from the moment the alarm sounds. (Source: office_safety_policy.txt)\n\n* **Floor Safety Wardens** – The designated Safety Warden for the 3rd floor is **Mostafa Adel**; for the 4th floor it is **Rania Fathy**. (Source: office_safety_policy.txt)",
+          "sources": [
+            "office_safety_policy.txt",
+            "it_device_policy.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "conv_12e1ce014b",
+      "title": "What are the two health insurance plan o...",
+      "created_at": "2026-09-20T19:49:39.353919+00:00",
+      "updated_at": "2026-09-20T19:49:46.682097+00:00",
+      "messages": [
+        {
+          "role": "user",
+          "text": "What are the two health insurance plan options offered by NovaBridge?"
+        },
+        {
+          "role": "assistant",
+          "text": "I couldn't find this information in the company documents. (Source: it_vpn_documentation.docx; it_incident_response_guide.pdf; office_safety_policy.txt)",
+          "sources": [
+            "office_safety_policy.txt",
+            "it_incident_response_guide.pdf",
+            "it_vpn_documentation.docx"
+          ]
+        }
+      ]
+    }
+  ],
+  "owner": [
+    {
+      "id": "conv_d41ce4989e",
+      "title": "What are the two health insurance plan o...",
+      "created_at": "2026-09-20T19:52:48.624819+00:00",
+      "updated_at": "2026-09-20T19:52:52.079023+00:00",
+      "messages": [
+        {
+          "role": "user",
+          "text": "What are the two health insurance plan options offered by NovaBridge?"
+        },
+        {
+          "role": "assistant",
+          "text": "I couldn't find this information in the company documents. (Source: hr_health_insurance_policy.pdf; company_benefits.pdf)",
+          "sources": [
+            "company_benefits.pdf",
+            "hr_health_insurance_policy.pdf"
+          ]
+        }
+      ]
+    }
+  ],
+  "abdo": [
+    {
+      "id": "conv_0e3582e0ae",
+      "title": "What are the main HR policies?",
+      "created_at": "2026-09-24T11:23:58.345631+00:00",
+      "updated_at": "2026-09-24T11:24:02.589403+00:00",
+      "messages": [
+        {
+          "role": "user",
+          "text": "What are the main HR policies?"
+        },
+        {
+          "role": "assistant",
+          "text": "The company’s HR documents highlight several core policies:\n\n1. **Attendance/Absence Reporting** – Planned absences must be requested in the HR portal at least 7 days in advance; unplanned absences must be reported to the manager before the workday starts, and failure to report within 2 hours is recorded as an unreported absence. (Source: hr_attendance_policy.docx)\n\n2. **Equal‑Opportunity Employment** – The employer provides equal‑opportunity hiring, compensation, discipline, termination, benefits and training, prohibits retaliation for reporting discrimination, and may discipline up to termination for violations. (Source: hr_employee_handbook.pdf – Section 4.1)\n\n3. **Workplace Safety** – Employees must follow OSHA and other safety standards, report unsafe conditions or injuries immediately, use safety equipment, and may be disciplined up to termination for safety violations. (Source: hr_employee_handbook.pdf – Section 5.4)\n\n4. **Policy Changes** – The employer reserves the right to modify any policies, benefits, or procedures at any time (except the “At‑Will Employment” policy). (Source: hr_employee_handbook.pdf – Section 1.3)",
+          "sources": [
+            "hr_attendance_policy.docx",
+            "hr_employee_handbook.pdf"
+          ]
+        }
+      ]
+    }
+  ]
+}

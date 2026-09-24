@@ -1,0 +1,37 @@
+{
+  "owner": {
+    "hashed_password": "$2b$12$sawmS470suKT9RvunLArpOoZKKLo4XB/O6QAVvqq/fU7DXJQtl8ru",
+    "role": "admin",
+    "departments": [
+      "ALL"
+    ]
+  },
+  "hr.sara": {
+    "hashed_password": "$2b$12$lE0FjXp3vscelayTRV/kgeWzDMj05jA69GKjC3m38sSgyZ6muFIbK",
+    "role": "employee",
+    "departments": [
+      "HR"
+    ]
+  },
+  "it.omar": {
+    "hashed_password": "$2b$12$dq/ysFPqj.xIXtXw82XuR.YhGMGnUeaME5pPK/ewt6xlwcMrSGeF2",
+    "role": "employee",
+    "departments": [
+      "IT"
+    ]
+  },
+  "sara sati": {
+    "hashed_password": "$2b$12$S6fhuO7CaZJZFWMR57W15.YILWL.5T47jMWYxO0x/jqQQLLosx8om",
+    "role": "employee",
+    "departments": [
+      "IT"
+    ]
+  },
+  "abdo": {
+    "hashed_password": "$2b$12$mSnDFRJDoUynJJJMDGu2yOEN.kHb4ZlQ974RtJefeOYdfjyD9VDfC",
+    "role": "employee",
+    "departments": [
+      "HR"
+    ]
+  }
+}
