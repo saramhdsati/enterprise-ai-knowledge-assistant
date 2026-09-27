@@ -17,13 +17,13 @@ def chunk_by_headings(text, min_chunk_size=100):
 
         if is_heading and current_chunk:
             if seen_first_heading:
-                # فلش الـ chunk العادي
+                
                 chunk_text = '\n'.join(current_chunk).strip()
                 if chunk_text:
                     chunks.append(chunk_text)
                 current_chunk = [line]
             else:
-                # ده أول heading — سيبي المقدمة (عنوان/ميتاداتا) ملصوقة بيه، متعملهاش chunk لوحدها
+                
                 current_chunk.append(line)
                 seen_first_heading = True
         else:
